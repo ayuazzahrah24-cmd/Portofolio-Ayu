@@ -1034,8 +1034,9 @@ section{
 .about-photo-wrapper{
 
     position: relative;
-    width: 370px;
-    height: 370px;
+
+    width: 420px;
+    height: 420px;
 
     display: flex;
     justify-content: center;
@@ -1044,15 +1045,18 @@ section{
 
 .about-photo{
 
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
 
-    object-fit: cover;
+    object-fit: contain;
 
     border-radius: 50%;
 
     position: relative;
     z-index: 2;
+
+    left: 170px;
+    top: 10px;
 
     border: 4px solid rgba(255,255,255,0.08);
 
@@ -1068,8 +1072,8 @@ section{
 
     position: absolute;
 
-    width: 360px;
-    height: 360px;
+    width: 430px;
+    height: 430px;
 
     border-radius: 50%;
 
