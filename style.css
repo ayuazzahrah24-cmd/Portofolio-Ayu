@@ -4279,4 +4279,14 @@ body.light-mode textarea{
     height:80px;
   }
 }
+body.light-mode .logo-item span{
 
+  color:#111827 !important;
+
+  opacity:1 !important;
+}
+
+body.light-mode .logo-item i{
+
+  color:#ff4fd8 !important;
+}
